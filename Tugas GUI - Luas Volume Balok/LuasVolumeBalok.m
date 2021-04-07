@@ -22,7 +22,7 @@ function varargout = LuasVolumeBalok(varargin)
 
 % Edit the above text to modify the response to help LuasVolumeBalok
 
-% Last Modified by GUIDE v2.5 06-Apr-2021 21:32:17
+% Last Modified by GUIDE v2.5 07-Apr-2021 15:08:15
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -248,3 +248,11 @@ if isfield(handles, 'metricdata') && ~isreset
     return;
 end
 guidata(handles. LuasVolumeBalok, handles);
+
+% --- Executes on button press in volumebalok.
+function volumebalok_Callback(hObject, eventdata, handles)
+% hObject    handle to volumebalok (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of volumebalok
